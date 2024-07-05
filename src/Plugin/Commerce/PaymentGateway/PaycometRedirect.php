@@ -106,7 +106,7 @@ class PaycometRedirect extends OffsitePaymentGatewayBase {
 
     $form['key'] = [
       '#type' => 'textfield',
-      '#title' => $this->t('Password'),
+      '#title' => $this->t('HASH password'),
       '#default_value' => $this->configuration['key'],
       '#required' => TRUE,
     ];
