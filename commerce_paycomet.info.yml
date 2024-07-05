@@ -1,0 +1,8 @@
+type: module
+name: 'Commerce Paycomet'
+description: 'Paycomet payment gateway integration '
+package: 'Commerce'
+core_version_requirement: ^8 || ^9 || ^10
+version: 9.0.0
+dependencies:
+  - commerce:commerce_payment
